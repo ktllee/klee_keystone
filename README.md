@@ -1,6 +1,8 @@
 # Classifying Wikipedia
 
-KHC keystone project by Katie Lee, c/o 2022.
+Boston University KHC keystone project by Katie Lee, c/o 2022.  Advised by Professor Dan Sussman.
+
+https://ktllee.shinyapps.io/catwiki/
 
 
 ## Organization
