@@ -1,0 +1,2 @@
+Select nodes from table to generate subgraph.<br>
+Tip: Shift + click to select multiple.

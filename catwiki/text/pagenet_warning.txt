@@ -1,0 +1,2 @@
+<strong>Select nodes from table to generate the subgraph with those nodes.</strong>
+<p style="color:red;font-size:70%;">Warning: Large networks load very slowly.  Click 'Load Full Graph' ONLY if you are prepared to wait for it to load—the page will crash if you try to reset while a graph is loading.</p>

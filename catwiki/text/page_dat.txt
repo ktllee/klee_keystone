@@ -1,0 +1,8 @@
+<hr>
+<h3>Tips</h3>
+<p>
+	<ul>
+		<li>Check out Wikipedia's pages on <a href="https://en.wikipedia.org/wiki/Wikipedia:WikiProject">WikiProjects</a>, <a href="https://en.wikipedia.org/wiki/Wikipedia:Content_assessment">content assessment</a>, and <a href="https://en.wikipedia.org/wiki/Wikipedia:Version_1.0_Editorial_Team/Release_Version_Criteria#Priority_of_topic">importance</a> to see the official source for these classifications.</li>
+		<li>Note that 'Characters' is not the number of characters in the text of the article, but the number of characters in the <i>source text</i> of the article.  In particular, the source text of an article includes characters for things like formatting, links, and images—not just the visible text.  Even if two articles have the same number of characters in text alone, one may have more complex formatting (and potentially more dedicated editors) that increases the number of characters in the source text.</li>
+	</ul>
+</p>

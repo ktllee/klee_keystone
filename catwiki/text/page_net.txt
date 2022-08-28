@@ -1,0 +1,8 @@
+<hr>
+<h3>Tips</h3>
+<p>
+	<ul>
+		<li>DO NOT click 'Load Full Graph' unless you are ready to wait for it to load (and it may take quite a while).  The page will crash if you try to interrupt with 'Reset' or by clicking a node in the table while the full graph is loading.  For reference, the full graph for 'Air Pollution' usually takes 30 seconds to 2 minutes to load.</li> 
+		<li>If a subgraph seems like it has no edges but the 'No edges between selected nodes' message has not appeared, drag around the nodes to see possible hidden connections.</li>
+	</ul>
+</p>

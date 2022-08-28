@@ -1,0 +1,8 @@
+<hr>
+<h2>Network Visualization and Clustering</h2>
+<p>
+	Wikipedia's category structure allows for multiple-membership communities—pages can be in multiple categories and a category can have multiple parent categories.  To avoid issues when comparing clustering methods, the "ground truth" of the category membership as defined by Wikipedia editors must be modified such that each page only has one parent category.  The single category of a page in multiple categories is determined by closeness to the seed category.  For example, 'Baseball' is in both 'Category:Team sports' and 'Category:American culture'.  If the seed category is 'Category:United States', then it will be placed in 'Category:American culture' because 'Category:American culture' is a direct child of 'Category:United States', while 'Category:Team sports' is much further removed.  In the case of a tie, the single category is selected randomly from the closest candidates.
+</p>
+<p>
+	More specific information about the visualizations can be found on the relevant pages.
+</p>

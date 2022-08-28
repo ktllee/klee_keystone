@@ -1,0 +1,31 @@
+<hr>
+<h3>Tips</h3>
+<p>
+	<ul>
+		<li>Not all the indices have the same range of values—look for differences in color rather than absolute color if you aren't familiar with a comparison measure.</li> 
+		<li>See the <a href="https://igraph.org/c/doc/igraph-Community.html#igraph_compare_communities">igraph reference manual on comparing communities</a> for more technical information on the measures used for community comparison.</li>
+	</ul>
+</p>
+<hr>
+<h3>Comparing Clusters</h3>
+<p>
+	Comparing the different groupings created with different clustering methods gives some insight into the overall network structure of a given network.  The “true” clustering represented by the groups created by Wikipedia’s categories can be compared to the computation-based communities to analyze the validity of each kind of cluster.  It is worth noting that the “ground-truth” in this case of the manually defined categories may not necessarily be the optimal grouping.
+</p>
+<p>
+	For example, look at the matrices computed for seed categories 'Air pollution' and 'Trigonometry', using the Adjusted Rand index (ARI).  The ARI functions as an adjusted proportion of nodes that remain in the same grouping between two clustering schemes.  The higher the ARI is, the more similar the partitioning.
+</p>
+<p>
+	In the example with 'Air Pollution', the true category structure is noticeably divergent from each of the other methods, whereas the example with 'Trigonometry' shows more homogeneity throughout.  A true categorization in disagreement with other methods could be an indication of error.
+</p>
+<p>
+	The measures available in this project are:
+	<ul>
+		<li>Variation of information (VI), Meila (2003)</li>
+		<li>Normalized mutual information (NMI), Danon et al. (2005)</li>
+		<li>Split-join distance, van Dongen (2000)</li>
+		<li>Rand index, Rand (1971)</li>
+		<li>Adjusted Rand index (ARI), Hubert and Arabie (1985)</li>
+	</ul>
+</p>
+
+

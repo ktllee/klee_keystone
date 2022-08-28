@@ -1,0 +1,17 @@
+<h2>Navigation</h2>
+<p>
+	There are two main types of networks of interest to this project: the network composed of <a href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a> pages as nodes and internal links as edges and the network composed of Wikipedia categories as nodes and category-subcategory relationships as edges.  To explore selected parts of the network of subcategories (and clustering of pages within those subcategories), see the 'Category' tab in the main navigation bar.  To explore a page network as a whole, see the 'Page' tab in the main navigation bar.
+</p>
+<hr>
+<h2>Data Collection</h2>
+<p>
+	The data visualized within the app is collected using the <a href="https://www.mediawiki.org/wiki/API:Main_page">Mediawiki Action API</a>.  The steps used to collect data are loosely as follows:
+</p>
+<ol>
+	<li>Choose a "seed" category to base data collection around.  The ideal category is something mid-sized that will lead to plenty of data without overloading the visualization process.</li>
+	<li>Find all categories surrounding the seed category, up to a chosen depth.  For example, a category a depth of 2 away from a seed category is a subcategory of a subcategory of the seed category.</li>
+	<li>Find and collect data on the pages within all of the categories found in the previous step.</li>
+</ol>
+<p>
+	The table below contains the seed categories currently available within the app.
+</p>

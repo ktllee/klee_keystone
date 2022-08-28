@@ -1,0 +1,3 @@
+<p>
+	This app was developed as part of a keystone project by Katie Lee, advised by Professor Dan Sussman and supported by Boston University's Kilachand Honors College.  Contact ktllee &lt;at&gt; bu &lt;dot&gt; edu with questions, bug reports, or data requests.  See <a href="https://github.com/ktllee/klee_keystone">https://github.com/ktllee/klee_keystone</a> for source code.
+</p>

@@ -1,0 +1,26 @@
+<hr>
+<h3>Tips</h3>
+<p>
+	<ul>
+		<li>Many of the clusters have only one member.  See the 'Page' section to get a better feel for what the page networks look like.</li> 
+		<li>See the <a href="https://igraph.org/c/doc/igraph-Community.html">igraph reference manual on community detection</a> for more technical information on the clustering methods.</li>
+	</ul>
+</p>
+<hr>
+<h3>Community Detection</h3>
+<p>
+	Methods in community detection work to find “reasonable” groups of nodes based on relatedness.  In general, nodes with more edges in common are more likely to be grouped together in most clustering schemes.  In the common pedagogical example below, the karate club network (from Zachary, 1977) can be clustered into groups roughly corresponding to different dojos and split-offs within a university karate club.
+</p>
+<p style="text-align:center;"><img src="karate.png" style="max-width:80%"></p>
+<p>
+	Community detection can be carried out in a variety of ways.  The methods in this project include:
+	<ul>
+		<li>Walktrap</li>
+		<li>Spectral</li>
+		<li>Louvain</li>
+		<li>Label Propagation</li>
+		<li>Infomap</li>
+		<li>Hierarchical</li>
+	</ul>
+	Each clustering method can result in a different partitioning for a given network, and gives focus to a different set of closeness criterion.
+</p>

@@ -1,0 +1,24 @@
+<h2>What is a Network?</h2>
+<p>
+	From the Wikipedia page on <a href="https://en.wikipedia.org/wiki/Network_theory">network theory</a>:
+</p>
+<p style="text-align:center;"><img src="network_theory.png" style="max-width:80%"></p>
+<p>
+	A network is a graph of related objects called nodes (or vertices) that are connected to other objects by edges.  We can use networks to explore concepts such as node centrality, community structure, and path distances.  For instance, in a network where nodes are researchers and edges are instances of two researchers working on a paper together, the clusters of nodes could be interpreted as groups with shared interests.
+</p>
+<hr>
+<h2>Networks in Wikipedia</h2>
+<p>
+	Wikipedia pages are connected to each other via internal links.  In the above description from the page on network theory, we can see internal links to pages on graphs, symmetric relations, asymmetric relations, computer science, network science, and graph theory.  The entire set of Wikipedia articles can be connected into a giant network where articles are nodes and internal links are edges.  A simple network involving five pages is visualized below.
+</p>
+<p style="text-align:center;"><img src="wiki_net.png" style="max-width:50%"></p>
+<p>
+	Even this small network is a subnetwork of the overall network of Wikipedia pages related by internal linkages.  Note that some articles only have connections in one direction—for example, the page on almonds links to the page on cherries, but Cherry doesn’t link to Almond.  Because of this, the graph is "directed".  It can also be collapsed into an undirected graph, where an edge represents whether there exists any internal link between pages, regardless of which of the two pages it originates from.  This project uses only undirected graphs for simplicity.
+</p>
+<p>
+	Networks can also be composed of categories.  Every Wikipedia page is part of at least one overarching category, and categories can contain other categories.  Below is a graph centered around the category "Air Pollution".
+</p>
+<p style="text-align:center;"><img src="wiki_airp.png" style="max-width:50%"></p>
+<p>
+	This graph is representative of how the data in this project is collected.  First, a base category (such as Air Pollution) is selected.  Then, all its subcategories to a particular "depth" are collected, and all the pages in those categories are used to form a related subnetwork of the entire network of Wikipedia pages.  The categories in the graph on the left are at most a depth of three away from the base category in red—this means that if you jumped from subcategory to parent category, it would take at most three jumps to reach the base node from any other node.  See 'Navigation and Data' for more information on data collection.
+</p>

@@ -1,0 +1,20 @@
+<hr>
+<h3>Tips</h3>
+<p>
+	<ul>
+		<li>Check out Wikipedia's pages on its <a href="https://en.wikipedia.org/wiki/Wikipedia:Contents/Categories">categories</a> and <a href="https://en.wikipedia.org/wiki/Special:CategoryTree">category tree</a> to see the overall list of categories.</li> 
+		<li>If a subgraph seems like it has no edges but the 'No edges between selected nodes' message has not appeared, drag around the nodes to see possible hidden connections.</li>
+	</ul>
+</p>
+<hr>
+<h3>Characterizing Networks</h3>
+<p>
+	There are many ways to characterize networks and the features within them.  Below are a few common metrics used to characterize networks:
+	<ul>
+		<li>Degree distribution.  The degree of a node is the number of direct connections it has to other nodes.  The number of nodes at different degrees provides information about the density of a network.</li>
+		<li>Centrality.  There are many measures for centrality, but in general the centrality of a node is some measure of its relative importance in the network structure.</li>
+		<li>Community detection.  Also called clustering, community detection works to find groups of nodes that are particularly related, or which can in some way be partitioned from a larger group.</li>
+		<li>And many more!</li>
+	</ul>
+	The other two tabs in the 'Category' section further explore the idea of community detection within a subnetwork of pages in Wikipedia.
+</p>
